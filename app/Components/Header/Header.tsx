@@ -17,6 +17,39 @@ const Header = () => {
 
   return (
     <React.Fragment>
+      {/* <header className={Style.header}>
+        <div className={Style.logoSearch}>
+          <div className={Style.logoDiv}>
+            <div className={Style.logo}>
+              <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" />
+            </div>
+          </div>
+          <div className={Style.searchDiv}>
+            <button className={Style.searchIcon}>
+                <FontAwesomeIcon icon={faSearch} />
+            </button>
+            <div className={Style.placeHolder}>
+                <span className={Style.placeWrite}>
+                <input type="text" className={
+                Style.inputTag
+            } readOnly autoComplete="off" spellCheck="false" tabIndex={-1}/>
+            <input type="text" className={Style.inputTag2} autoComplete="off" spellCheck="false"/>
+            <pre aria-hidden="true" className={Style.preTag}></pre>
+                </span>
+            
+            </div>
+            <div className={Style.inputAfter}>
+                Creator
+            </div>
+           
+           
+
+          </div>
+
+        </div>
+      </header> */}
+
+      {/* <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" /> */}
       <header className="flex justify-center">
         <div className={Style.header}>
           <div className={Style.logoSearch}>
