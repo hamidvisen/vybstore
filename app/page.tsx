@@ -115,8 +115,8 @@ export default function Home() {
                 Start Vybing with us!
               </h1>
               <p className="text-[18px]font-semibold text-white">
-                "We help influencers make money by monetizing their travel
-                plans, merchandise, and digital goods and many more."
+              &quot;We help influencers make money by monetizing their travel
+                plans, merchandise, and digital goods and many more.&quot;
               </p>
               <button className="text-[20px] bg-[#00dc82] w-28 'font-bold' rounded-xl px-0 py-3">
                 Join Us
@@ -197,11 +197,11 @@ export default function Home() {
               </div>
               <div className={Style.firstElement}>
                 <h1 className="text-[20px] font-bold py-5">
-                  "Monetize your influencer status: Earn money adding real value
-                  to your true followers!"
+                &quot;Monetize your influencer status: Earn money adding real value
+                  to your true followers!&quot;
                 </h1>
                 <p className=" font-medium pb-5">
-                  Let VYB the money now !! It's here and withdraw it
+                  Let VYB the money now !! It&apos;s here and withdraw it
                   periodically.
                 </p>
                 <img
@@ -289,7 +289,7 @@ export default function Home() {
         <p
           className={`text-[20px] mb-[60px] w-2/4 m-auto leading-none ${Style.reportTxt}`}
         >
-          Quick answers to questions you may have. Can’t find what you're
+          Quick answers to questions you may have. Can&apos;t find what you're
           looking for? Check out our full documentation
         </p>
         <div className={Style.informationDiv}>
