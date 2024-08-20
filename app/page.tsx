@@ -41,7 +41,7 @@ export default function Home() {
     <main>
       <div id="videoContainer" className={Style.videoContent}>
         <video className={Style.video} autoPlay playsInline loop muted>
-          <source src="https://9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io/f1721387510430x494031690418350140/hero%20section%20web%20%281%29.mp4?_gl=1*yj4ger*_gcl_au*MTMzOTk3MDA3OC4xNzE5MjMxMjA4*_ga*MTU1NDIzMTQ1LjE3MTEyMzQ3NDY.*_ga_BFPVR2DEE2*MTcyMTM4NzUwMi43NS4xLjE3MjEzODc3NjguNjAuMC4w" />
+          <source src="video.mp4" />
         </video>
         <div className={Style.videoOverlay}>
           <div className={Style.badgeCard}>
