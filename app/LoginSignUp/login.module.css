@@ -31,8 +31,8 @@
   } */
 
   .gglTxt{
-    font-size: 18px;
-    margin-left: 5px;
+    font-size: 15px;
+    margin-left: 3px;
 }
 .gglBtn{
         
@@ -67,7 +67,7 @@
     }
     .gglImg{
         width: 10%;
-        margin-top: 0px;
+        margin-top: 20px;
         margin-right: 0px;
     }
     .gglTxt{
