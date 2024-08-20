@@ -295,7 +295,7 @@ export default function Login() {
                     //   marginLeft: "27%",
                     //   borderRadius: "8px",
                     // }}
-                  />{" "}
+                  />
                   <br />
                   <p
                     className={`ml-[27%] mt-[0px] text-[18px] text-[#003c3c] ${Style.rstLink}`}
@@ -306,7 +306,7 @@ export default function Login() {
                     type="submit"
                     className={`text-center border-2  w-[20%] rounded-xl py-2 ml-[41%] mt-[30px] border-[#003c3c] bg-[#f8f9fb] ${Style.lgnBtn} `}
                   >
-                    Login{" "}
+                    Login
                   </button>
                   <HrWithText text="Don't Have Account?" width="80%" />
                   <button
@@ -314,7 +314,7 @@ export default function Login() {
                     onClick={toggleForm}
                     className={`text-center border-2 border-[#003c3c]  w-[30%] rounded-3xl py-4 ml-[36%] bg-[#003c3c] text-white mb-[20px] text-[20px] ${Style.sgnBtn}`}
                   >
-                    Sign up{" "}
+                    Sign up
                   </button>
                 </>
               )}
