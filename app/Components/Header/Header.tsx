@@ -17,39 +17,6 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      {/* <header className={Style.header}>
-        <div className={Style.logoSearch}>
-          <div className={Style.logoDiv}>
-            <div className={Style.logo}>
-              <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" />
-            </div>
-          </div>
-          <div className={Style.searchDiv}>
-            <button className={Style.searchIcon}>
-                <FontAwesomeIcon icon={faSearch} />
-            </button>
-            <div className={Style.placeHolder}>
-                <span className={Style.placeWrite}>
-                <input type="text" className={
-                Style.inputTag
-            } readOnly autoComplete="off" spellCheck="false" tabIndex={-1}/>
-            <input type="text" className={Style.inputTag2} autoComplete="off" spellCheck="false"/>
-            <pre aria-hidden="true" className={Style.preTag}></pre>
-                </span>
-            
-            </div>
-            <div className={Style.inputAfter}>
-                Creator
-            </div>
-           
-           
-
-          </div>
-
-        </div>
-      </header> */}
-
-      {/* <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" /> */}
       <header className="flex justify-center">
         <div className={Style.header}>
           <div className={Style.logoSearch}>
@@ -67,7 +34,7 @@ const Header = () => {
                 placeholder="Search Creator"
                 className={Style.inputTag}
               />
-               {/* <span className={Style.searchSpan}> Product</span> */}
+              {/* <span className={Style.searchSpan}> Product</span> */}
               <span className={Style.searchSpan}> Creator</span>
             </div>
           </div>
@@ -81,6 +48,9 @@ const Header = () => {
               </li>
               <li className={Style.navLi}>
                 <Link href="#">Policies</Link>
+              </li>
+              <li className={Style.navLi}>
+                <Link href="/profile">Profile</Link>
               </li>
             </ul>
           </div>
@@ -107,12 +77,12 @@ const Header = () => {
           : `fixed top-[7%] left-[100%]  w-[30%] ease-in duration-500 p-10 h-[80vh] bg-[#f8f9fb] ${Style.shad}`
       }`}
       >
-        
-        <div onClick={handleNav} className="my-[10px] float-right cursor-pointer border-2 border-black" >
-          <AiOutlineClose size={25}  />
+        <div
+          onClick={handleNav}
+          className="my-[10px] float-right cursor-pointer border-2 border-black"
+        >
+          <AiOutlineClose size={25} />
         </div>
-        
-        
 
         <div className=" mt-[25%]">
           {" "}
