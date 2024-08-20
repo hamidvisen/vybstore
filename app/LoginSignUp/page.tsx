@@ -14,7 +14,6 @@ interface HRWithTextProps {
 }
 
 const HrWithText: React.FC<HRWithTextProps> = ({ text, width = "70%" }) => {
-
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
@@ -26,14 +25,14 @@ const HrWithText: React.FC<HRWithTextProps> = ({ text, width = "70%" }) => {
     handleResize();
 
     // Add event listener to handle window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
+
   return (
     <div
       className={`${Style.hrDiv} ${
@@ -91,14 +90,14 @@ export default function Login() {
     handleResize();
 
     // Add event listener to handle window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-  
+
   return (
     <div>
       {/* <Navbar /> */}
@@ -120,9 +119,9 @@ export default function Login() {
             <form className="">
               <h1
                 className={`font-semibold text-[40px] text-center ${
-                  Style.headTxt}   ${isSmallScreen? "mb-2" : "mb-5"}`}
+                  Style.headTxt
+                }   ${isSmallScreen ? "mb-2" : "mb-5"}`}
               >
-               
                 {isSignUp ? "Sign Up" : "Login"}
               </h1>
 
@@ -250,9 +249,7 @@ export default function Login() {
                     className={`w-[50%] ml-[25%] flex my-[20px] border-2 py-3 rounded-3xl  border-black pl-5 ${
                       Style.gglBtn
                     } ${isSmallScreen ? "my-[5px]" : "my-[20px]"} `}
-                     
                   >
-                    
                     <img
                       className={`mr-2 ${Style.gglImg}`}
                       src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa159f2fe776df35a757d15824a82bdfb.cdn.bubble.io%2Ff1712987138249x946240078655597600%2Fsearch.png?w=22&h=22&auto=compress&dpr=1.5&fit=max"
@@ -286,15 +283,6 @@ export default function Login() {
                     type="password"
                     placeholder="Enter Password"
                     className={`placeholder:text-[14px] ${Style.inptForm}`}
-                    // style={{
-                    //   border: "2px solid #a8a8a8",
-                    //   padding: "10px",
-                    //   fontSize: "20px",
-                    //   width: "50%",
-                    //   height: "40px",
-                    //   marginLeft: "27%",
-                    //   borderRadius: "8px",
-                    // }}
                   />
                   <br />
                   <p

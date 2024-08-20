@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
+import Image from 'next/image'
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 import Styles from "./profile.module.css";
 
@@ -19,9 +20,10 @@ const Profile = () => {
         >
           <div className="">
             <div className="imgDiv rounded-full  w-[200px] h-[200px] mt-16  mb-2">
-              <img
+              <Image
                 src="https://i.imgur.com/8Q4Q8QD.jpg"
                 className="w-[100%] h-[100%] object-cover rounded-full"
+                alt="first Col div"
               />
             </div>
             <span>
@@ -322,9 +324,10 @@ const Profile = () => {
                   Save{" "}
                 </button>
                 <button className={`w-[40%] flex mb-3 border-2 py-3 rounded-full items-center  border-black pl-5 ${Styles.gglCnnct}`}>
-                  <img
+                  <Image
                     className="mr-2"
                     src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa159f2fe776df35a757d15824a82bdfb.cdn.bubble.io%2Ff1712987138249x946240078655597600%2Fsearch.png?w=22&h=22&auto=compress&dpr=1.5&fit=max"
+                    alt="google photo"
                   />
                   <span className="font-[500] text-[18px]">Connect Google</span>
                 </button>
