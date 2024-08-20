@@ -46,11 +46,13 @@ export default function Home() {
         <div className={Style.videoOverlay}>
           <div className={Style.badgeCard}>
             <div className={Style.imgDiv}>
-              <Image 
+              <Image
                 className={Style.imgDivImg}
-                src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1723129049845x104455195830874600%2Fbe28d803d9a96aa3f39ac979f9f7a3c0%25201.png?w=128&amp;h=128&amp;auto=compress&amp;dpr=1.5&amp;fit=max"
-             
-             alt="overlayIamge"/>
+                src="/first_badge_img.png"
+                alt="Image Div"
+                width={100}
+                height={100}
+              />
             </div>
             <div className={Style.textDiv}>Travel Itinerary</div>
           </div>
@@ -59,8 +61,11 @@ export default function Home() {
             <div className={Style.imgDiv}>
               <Image
                 className={Style.imgDivImg}
-                src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1723129676236x902614560996062500%2Fc3f406dbad6bc39dc9f6a972791246b3%25201.png?w=128&amp;h=143&amp;auto=compress&amp;dpr=1.5&amp;fit=max"
-           alt="badgeCard"    />
+                src="/scnd_badge_img.png"
+                width={100}
+                height={100}
+                alt="Second Badge Image"
+              />
             </div>
             <div className={Style.textDiv}>Custom Merchandise</div>
           </div>
@@ -69,24 +74,52 @@ export default function Home() {
             <div className={Style.imgDiv}>
               <Image
                 className={Style.imgDivImg}
-                src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1723129685688x205809444570131070%2F2a357d982060aa48621b1408be897e98%25201.png?w=128&amp;h=129&amp;auto=compress&amp;dpr=1.5&amp;fit=max"
-               alt="Image Div"/>
+                src="/thrd_badge_img.png"
+                width={100}
+                height={100}
+                alt="Badge Third Pic"
+              />
             </div>
             <div className={Style.textDiv}>Digital Content</div>
           </div>
           <div className={Style.badgeCardLine3}></div>
           <div className={Style.badgeCard}>
             <div className={Style.imgDiv}>
-              <Image src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1723129740866x257181271145942000%2Ffdf29691d85e224cc6ddd59f8b6392fb%25201.png?w=128&amp;h=97&amp;auto=compress&amp;dpr=1.5&amp;fit=max"  alt="Badge Image 2"/>
+              <img src="/frth_badge_img.png"
+              width={100}
+              height={150}
+              alt="Badge Fourth pic" />
             </div>
             <div className={Style.textDiv}>Fashion Brands</div>
           </div>
         </div>
       </div>
 
-      
+      {/* <Link href="LoginSignUp">Login</Link> */}
+
+      {/* <Carousel
+     plugins={[Autoplay({delay:5000})]}
+     className="w-full max-w-[100vw] m-auto">
+      <CarouselContent>
+       {
+        Messages.map((message, index)=>(
+         
+            <CarouselItem key={index}>
+              <div className="p-1">
+              <img src={message.url} alt="hamid"/>
+              </div>
+            </CarouselItem>
+        
+        ))
+       }
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel> */}
       <div className={Style.CarouselImage}>
-        <Image src="https://9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io/f1717430860528x101699210282570000/Final%202nd%20section%20WEB%20%281%29.gif?ignore_imgix=true" alt="Carousal Image"/>
+        <Image src="/finalSecImg.gif"  alt="Carousal Image" layout="responsive"
+        width={100} height={50}
+        objectFit="cover"/>
       </div>
       <div className={Style.advertContainer}>
         <div className={Style.advertRow}>
@@ -122,7 +155,9 @@ export default function Home() {
                 </p>
                 <Image
                   className={Style.advertImg}
-                  src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717493729973x154150708018341730%2F4.gif?w=384&h=843&auto=compress&dpr=1.5&fit=max"
+                  src="/first_train_img.gif"
+                  width={100}
+                  height={50}
                   alt="advert1"
                 />
               </div>
@@ -142,9 +177,11 @@ export default function Home() {
                   Simply fill in the details to build your digital store. Once
                   done, start selling your products to your audience.
                 </p>
-                <Image
+                <img
                   className={Style.advertImg}
-                  src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717493756784x453901144404817540%2F1.gif?w=384&h=843&auto=compress&dpr=1.5&fit=max"
+                  src="/scnd_train_img.gif"
+                  width={100}
+                  height={50}
                   alt="advert2"
                 />
               </div>
@@ -164,9 +201,11 @@ export default function Home() {
                   your store link in insta bio and lets make first post together
                   !
                 </p>
-                <Image
+                <img
                   className={Style.advertImg}
-                  src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717493793142x205484277914075520%2F3.gif?w=384&h=843&auto=compress&dpr=1.5&fit=max"
+                  src="/thrd_train_img.gif"
+                  width={100}
+                  height={50}
                   alt="advert3"
                 />
               </div>
@@ -185,9 +224,9 @@ export default function Home() {
                   Let VYB the money now !! It&apos;s here and withdraw it
                   periodically.
                 </p>
-                <Image
+                <img
                   className={Style.advertImg}
-                  src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717493810587x376390459201151740%2F2.gif?w=384&h=843&auto=compress&dpr=1.5&fit=max"
+                  src="frth_train_img.gif"
                   alt="advert4"
                 />
               </div>

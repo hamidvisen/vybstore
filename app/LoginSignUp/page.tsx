@@ -106,7 +106,7 @@ export default function Login() {
           {/* Left side with the image */}
           <div className={`w-[50%] h-[100%]  ${Style.frstDiv}`}>
             <Image
-              src="https://9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io/f1716528469970x603190276252033500/signup%20image.svg"
+              src="/signup_image.svg"
               alt="Signup Image"
               width={450}
               height={200}
@@ -250,9 +250,12 @@ export default function Login() {
                       Style.gglBtn
                     } ${isSmallScreen ? "my-[5px]" : "my-[20px]"} `}
                   >
-                    <img
-                      className={`mr-2 ${Style.gglImg}`}
-                      src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa159f2fe776df35a757d15824a82bdfb.cdn.bubble.io%2Ff1712987138249x946240078655597600%2Fsearch.png?w=22&h=22&auto=compress&dpr=1.5&fit=max"
+                    <Image
+                      className={`mr-2 mt-[3px] ${Style.gglImg}`}
+                      src="/google_logo.png"
+                      alt="Google Logo"
+                      width={24}
+                      height={24}
                     />
                     <span className={`font-[500] text-[18px] ${Style.gglTxt}`}>
                       Signup/ Signin Google
