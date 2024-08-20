@@ -10,7 +10,7 @@
   height: 500px;
 }
 .videoOverlay {
-  transform: translateY(-15px);
+  transform: translateY(-35px);
 
   width: 1000px;
   border-radius: 24px;
