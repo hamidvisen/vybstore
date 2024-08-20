@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --font_default: "Lato";
+  --color_text_default:rgba(9,23,71,1);
+  --color_bTWEb0_default:rgba(0, 220, 130, 1);
+  --color_bTNrc0_default:rgba(168, 168, 168, 1);
+  --color_primary_default :rgba(0,60,60,1)
+ 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  box-sizing: border-box;
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

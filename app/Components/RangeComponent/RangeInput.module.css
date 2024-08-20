@@ -1,0 +1,41 @@
+/* styles/RangeInput.module.css */
+.rangeInput {
+    -webkit-appearance: none; /* Remove default styles for WebKit browsers */
+    width: 100%; /* Make the input take up the full width of its container */
+    height: 20px; /* Set the height of the range input */
+    background: white; /* Background color of the range track */
+    border-radius: 6px; /* Round the corners of the track */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border:1px solid #696c6c;
+  }
+  
+  .rangeInput::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles */
+    width: 20px; /* Width of the thumb */
+    height: 40px; /* Height of the thumb */
+    background: #003c3c; /* Color of the thumb */
+    border-radius: 5px; /* Round the thumb */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .rangeInput::-moz-range-thumb {
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    background: #4a90e2; /* Color of the thumb */
+    border-radius: 50%; /* Round the thumb */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .rangeInput::-ms-thumb {
+    width: 20px; /* Width of the thumb */
+    height: 20px; /* Height of the thumb */
+    background: #4a90e2; /* Color of the thumb */
+    border-radius: 50%; /* Round the thumb */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .rangeInputLabel {
+    font-size: 0.875rem; /* Adjust font size of the label */
+    color: #4a4a4a; /* Color of the label */
+  }
+  

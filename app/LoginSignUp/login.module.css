@@ -1,0 +1,203 @@
+.inptForm{
+    border: 2px solid #a8a8a8;
+    padding: 10px;
+    font-size:20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 27%;
+
+    margin-bottom: 30px;
+  }
+    .hrTxt{
+    padding: "0 10px";
+    background: "white";
+    font-size: "20px";
+  }
+ .hrLine{
+    flex: 1;
+    border: "1px solid black";
+    margin: 0;
+    background-color: "black";
+  }
+ 
+
+  /* .hrDiv{
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    margin: "20px auto";
+    width: width,
+  } */
+
+
+
+
+
+@media (max-width: 1024px){
+    .frstDiv{
+        /* border: 2px solid black; */
+        
+    }
+    .img{
+        width: 80%;
+        height: 40%;
+        object-fit: cover;
+        margin-left: 10%;
+        margin-top: 100px;
+        
+    }
+    .rightDiv{
+        width: 50%;
+        /* border: 2px solid black; */
+        padding-top: 45px;
+    }
+    .gglBtn{
+        
+        width: 80%;
+        margin-left: 10%;
+        padding-left: 30px;
+    }
+    .gglTxt{
+        font-size: 22px;
+        margin-left: 5px;
+    }
+    .lblTxt{
+        margin-left: 20%;
+        font-size: 32px;
+    }
+    .inptForm{
+        width: 65%;
+        margin-left: 20%;
+        
+    }
+    .rstLink{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 640px){
+    .frstDiv{
+        /* border: 2px solid black; */
+        
+    }
+    .img{
+        width: 100%;
+        height: 30%;
+        object-fit: cover;
+        margin-left: 0;
+        margin-top: 150px;
+        
+        border-radius: 16px;
+    }
+    .rightDiv{
+        width: 50%;
+        /* border: 2px solid black; */
+        padding-top: 90px;
+    }
+    .headTxt{
+        font-size: 24px;
+       
+    }
+    .gglBtn{
+        
+        width: 100%;
+        margin-left: 2%;
+        padding-left: 5px;
+        height: 50px;
+        word-wrap: break-word;
+        
+    }
+    .gglTxt{
+        font-size: 10px;
+        margin-left: 1px;
+    }
+    .gglImg{
+        width: 20%;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .lblTxt{
+        margin-left: 10%;
+        font-size: 32px;
+      
+    }
+    .inptForm{
+        width: 90%;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        padding: 1px 5px ;
+        /* border: 1px solid black; */
+        
+    }
+    .rstLink{
+        margin-top: 0px;
+        font-size: 12px;
+ 
+        margin-left: 10px;
+    }
+    .lgnBtn{
+        border: 2px solid black;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 5px;
+        padding: 5px 2px;
+    }
+    .hrTxt{
+        font-size: 10px;
+
+        
+    }
+    /* .hrDiv{
+        border: 2px solid black; 
+        margin-bottom: -10px;
+        margin: "10px auto",
+        
+    } */
+    
+    .sgnBtn{
+        /* border: 2px solid black; */
+        width: 60%;
+        margin-left: 20%;
+        margin-top: px;
+        padding: 5px 2px;
+        border-radius: 12px;
+    }
+    .crtrTxt{
+        font-size: 10px;
+    
+        /* border: 2px solid black; */
+        width: 80%;
+        margin:auto;
+        margin-left: 20px;
+    }
+    .yesBtn{
+        width: 40%;
+        margin-left: 30%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 3px 2px;
+        text-align: center;
+    }
+    .noBtn{
+        width: 50%;
+        margin-right: 30%;
+        font-size: 20px;
+        border: 2px solid #003c3c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 3px 2px;
+        text-align: center;
+    }
+
+    .sgnTxt{
+        font-size: 10px;
+    }
+    
+}
