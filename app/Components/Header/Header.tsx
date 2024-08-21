@@ -17,80 +17,47 @@ const Header = () => {
 
   return (
     <React.Fragment>
-      {/* <header className={Style.header}>
-        <div className={Style.logoSearch}>
-          <div className={Style.logoDiv}>
-            <div className={Style.logo}>
-              <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" />
-            </div>
-          </div>
-          <div className={Style.searchDiv}>
-            <button className={Style.searchIcon}>
-                <FontAwesomeIcon icon={faSearch} />
-            </button>
-            <div className={Style.placeHolder}>
-                <span className={Style.placeWrite}>
-                <input type="text" className={
-                Style.inputTag
-            } readOnly autoComplete="off" spellCheck="false" tabIndex={-1}/>
-            <input type="text" className={Style.inputTag2} autoComplete="off" spellCheck="false"/>
-            <pre aria-hidden="true" className={Style.preTag}></pre>
-                </span>
-            
-            </div>
-            <div className={Style.inputAfter}>
-                Creator
-            </div>
-           
-           
-
-          </div>
-
-        </div>
-      </header> */}
-
-      {/* <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" /> */}
       <header className="flex justify-center">
         <div className={Style.header}>
           <div className={Style.logoSearch}>
             <div className={Style.logo}>
-              <Link href="/">
+              <Link href="/" className="text-black">
                 <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F9fd5aba8692d70cefef4b3581c1daecf.cdn.bubble.io%2Ff1717142581576x589293308934299500%2FLOGO.gif?w=96&amp;h=58&amp;auto=compress&amp;dpr=1.5&amp;fit=max" />
               </Link>
             </div>
             <div className={Style.searchDiv}>
               <button className={Style.searchIcon}>
-                <FontAwesomeIcon icon={faSearch} />
+                <FontAwesomeIcon icon={faSearch} className="text-black" />
               </button>
               <input
                 type="text"
                 placeholder="Search Creator"
                 className={Style.inputTag}
               />
-              {/* <span className={Style.searchSpan}> Product</span> */}
+             
               <span className={Style.searchSpan}> Creator</span>
             </div>
           </div>
           <div className={Style.nav}>
             <ul className={Style.navList}>
               <li className={Style.navLi}>
-                <Link href="#">Contact Us</Link>
+                <Link href="#" className={` ${Style.navListLink} text-black`}>Contact Us</Link>
               </li>
               <li className={Style.navLi}>
-                <Link href="#">About Us</Link>
+                <Link href="#" className={` ${Style.navListLink} text-black`}>About Us</Link>
               </li>
               <li className={Style.navLi}>
-                <Link href="#">Policies</Link>
+                <Link href="#" className={` ${Style.navListLink} text-black`}>Policies</Link>
               </li>
               <li className={Style.navLi}>
-                <Link href="/profile">Profile</Link>
+                <Link href="/profile" className={` ${Style.navListLink} text-black`}>Profile</Link>
               </li>
             </ul>
           </div>
           <div className={Style.loginSignUp}>
             <Link href="LoginSignUp">
-              {" "}
-              <button className={Style.loginSignUpButton}>Login</button>{" "}
+             
+              <button className={`${Style.loginSignUpButton} text-black`}>Login</button>{" "}
             </Link>
           </div>
 
@@ -98,7 +65,7 @@ const Header = () => {
             onClick={handleNav}
             className={`hmbrgr lg:hidden cursor-pointer mr-5 ${Style.navigate}`}
           >
-            <AiOutlineMenu size={50} />
+            <AiOutlineMenu size={50} className="text-black" />
           </div>
         </div>
       </header>
@@ -114,20 +81,20 @@ const Header = () => {
           onClick={handleNav}
           className="my-[10px] float-right cursor-pointer border-2 border-black"
         >
-          <AiOutlineClose size={25} />
+          <AiOutlineClose size={25} className="text-black"/>
         </div>
 
         <div className=" mt-[25%]">
           {" "}
           <ul className="text-center">
             <li className="mb-5 border-b-2 border-black rounded-2xl">
-              <Link href="#">Contact Us</Link>
+              <Link href="#" className="text-black">Contact Us</Link>
             </li>
             <li className="mb-5 border-b-2 border-black rounded-2xl">
-              <Link href="#">About Us</Link>
+              <Link href="#" className="text-black">About Us</Link>
             </li>
             <li className="mb-5 border-b-2 border-black rounded-2xl">
-              <Link href="#">Policies</Link>
+              <Link href="#" className="text-black">Policies</Link>
             </li>
           </ul>
         </div>

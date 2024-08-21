@@ -1,241 +1,66 @@
-.header{
+.header {
     position: fixed;
     top: 5;
-   display: flex;
-     background-color: rgba(214, 214, 214, 0.4);
+    display: flex;
+    background-color: rgba(214, 214, 214, 0.4);
     overflow: visible;
     justify-content: space-between;
     border-radius: 35px;
     padding: 10px 20px;
     opacity: 1;
-    
+
     order: 9;
-   
-    width: 1000px;
     flex-grow: 1;
-    height: 100px;
     margin: 10px 10%;
     z-index: 5;
 }
 
-/* .logoSearch{
-    display: flex;
-    flex-direction: row-reverse;
-    overflow: visible;
-    justify-content: flex-start;
-    gap: 0px 10px;
-    border-radius: 0px;
-    opacity: 1;
-    align-self: center;
-    min-width: 200px;
-    max-width: 411px;
-    order: 6;
-    min-height: 0px;
-    width: 200px;
-    flex-grow: 1;
-    height: max-content;
-    margin: 4px 0px;
-    z-index: 2;
-}
 
-.logoDiv{
-    overflow: visible;
-    justify-content: center;
-    border-radius: 0px;
-    opacity: 1;
-    cursor: pointer;
-    align-self: flex-start;
-    min-width: 80px;
-    max-width: 80px;
-    order: 4;
-    min-height: 50px;
-    width: 80px;
-    flex-grow: 1;
-    height: max-content;
-    margin: 0px;
-    z-index: 6;
-}
-.gapDiv{
-    position: relative;
-    height: 0px;
-    padding-top: 60.3015%;
-}
-.logo{
-    border-radius: 5px;
-    opacity: 1;
-    align-self: center;
-    min-width: 50px;
-    order: 1;
-    height: max-content;
-    flex-grow: 0;
-    flex-shrink: 0;
-    width: calc(100% + 0px);
-    margin: 0px;
-    z-index: 4;
-}
 
-.searchDiv{
-    display: flex;
-   
-    overflow: visible;
-    justify-content: space-around;
-    gap: 0px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color_bTNrc0_default);
-    border-radius: 35px;
-    padding: 4px 8px 4px 4px;
-    opacity: 1;
-    align-self: center;
-    min-width: 190px;
-    max-width: 300px;
-    order: 5;
-    min-height: 44px;
-    width: 190px;
-    flex-grow: 1;
-    height: max-content;
-    margin: 0px;
-    z-index: 5;
-}
-.searchIcon{
-    display: flex;
-    color: rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: 9px;
-    opacity: 1;
-    align-self: center;
-    min-width: 30px;
-    max-width: 30px;
-    order: 5;
-    min-height: 30px;
-    max-height: 30px;
-    width: 30px;
-    flex-grow: 1;
-    height: 30px;
-    margin: 0px;
-    z-index: 3;
-}
-.placeHolder{
-    align-self: center;
-    min-width: 108px;
-    order: 6;
-    min-height: 20px;
-    width: 108px;
-    flex-grow: 1;
-    height: 20px;
-    margin: 0px;
-    z-index: 4;
-    overflow: visible;
-    opacity: 1;
-}
-.placeWrite{
-    position: relative;
-    display: inline-block;
-    direction: ltr;
-    height: 100%;
-}
-.inputTag{
-    border: none transparent;
-    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: none;
-    opacity: 1;
-    border-radius: 5px;
-    color: var(--color_text_default);
-    font-family: var(--font_default);
-    font-size: 14px;
-    font-weight: 400;
-    padding: 6px;
-}
-.inputTag2{
-    border: none;
-    background-color: transparent;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    vertical-align: top;
-    border-radius: 5px;
-    font-family: var(--font_default);
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--color_text_default);
-    padding: 6px;
-}
-.preTag{
-    position: absolute;
-    visibility: hidden;
-    white-space: pre;
-    font-family: Arial;
-    font-size: 13.3333px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    word-spacing: 0px;
-    letter-spacing: 0px;
-    text-indent: 0px;
-    text-rendering: auto;
-    text-transform: none;
-}
-.inputAfter{
-    overflow: visible;
-    justify-content: flex-start;
-    gap: 0px 8px;
-    border-radius: 0px;
-    opacity: 1;
-    align-self: center;
-    min-width: 0px;
-    order: 8;
-    min-height: 20px;
-    width: max-content;
-    flex-grow: 0;
-    height: max-content;
-    margin: 0px 0px 0px 4px;
-    z-index: 6;
-} */
-
-.logoSearch{
+.logoSearch {
     display: flex;
     flex-direction: row;
-    
+
 }
-.searchDiv{
+
+.searchDiv {
     margin: 15px 2px;
     border: 2px solid black;
     border-radius: 35px;
-    
+
 }
-.logo{
+
+.logo {
     width: 15%;
     height: 15%;
     margin-top: 15px;
 }
-.searchIcon{
+
+.searchIcon {
     margin: 5px 0px 5px 10px;
     font-size: 25px;
 
 }
-.inputTag{
+
+.inputTag {
     margin: 0px 0px 0px 10px;
     padding: 0px 0px 0px 10px;
     border: none transparent;
     background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
     box-sizing: border-box;
-   
+    color: black;
+
 }
-.inputTag:focus{
+
+.inputTag:focus {
     outline: none;
 }
-.searchSpan{
+
+.searchSpan {
     margin: 0px 15px 0px 10px;
     font-size: 20px;
     border-bottom: 2px solid var(--color_bTWEb0_default);
-    color:  var(--color_bTWEb0_default);
+    color: var(--color_bTWEb0_default);
 }
 
 
@@ -245,150 +70,221 @@
     padding: 0;
     overflow: hidden;
     /* border: 2px solid black; */
-  }
-  
-  .navLi {
+}
+
+.navLi {
     display: inline;
     line-height: 10px;
     margin-right: 15px;
-        
-  }
-  
-  /* .navLiA {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-    text-align: center;
-    text-decoration: none;
-  } */
 
-  .loginSignUp{
+}
+
+
+.loginSignUp {
     margin: 15px 0px 0px 10px;
     padding: 0;
     list-style-type: none;
     margin-right: 30px;
 
-  }
-  .loginSignUpButton{
-  border: 2px solid var(--color_bTNrc0_default);
-  padding: 10px 20px;
-  border-radius: 10px;
-  background-color: white;
-  font-weight: 600;
+}
+
+.loginSignUpButton {
+    border: 2px solid var(--color_bTNrc0_default);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 600;
 
 
-  }
+}
 
-  .shad:hover{
+.shad:hover {
     box-shadow: 2px 2px 4px 1px var(--color_bTNrc0_default);
 }
 
 
 
 
-
-  
-  @media (max-width: 1024px) {
-    .header{
-        width: 800px;
+@media only screen and (min-width:0) and (max-width:440px) {
+    .header {
+        width: 84%;
     }
-    .logo{
-        width: 150px;
-        margin-top: 5px;
-
-    }
-    .searchDiv{
-       width: 300px;
-       display: flex;
-       justify-content: space-between;
-       margin-left: 100px;
-    }
-    .searchIcon{
-        margin: 5px 0px 5px 10px;
-        font-size: 25px;
-    
-    }
-
-    
-    .inputTag{
-   display: none;
-    
-}
-
-.searchSpan{
-   
-
- margin-top: 5px;
- margin-bottom: 5px;
- 
-    font-size: 15px;
-    border-bottom: 2px solid var(--color_bTWEb0_default);
-    color:  var(--color_bTWEb0_default);
-}
-    
-.navList{
-display: none;
-}
-.loginSignUp{
-    display: none;
-}
-
-.navigate{
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-  }
-
-  @media (max-width: 800px) {
-    .header{
-        width: 500px;
-        margin-left: 20%;
+    .logo {
+        width: 50px;
         margin-top: 20px;
+        margin-right: 5px;
 
-        
     }
-    .searchDiv{
-        width: 200px;
+    .searchDiv {
+        width: 100px;
         display: flex;
         justify-content: space-between;
         margin-left: 0px;
-     }
-
-  }
-
-  @media (max-width: 640px) {
-   .header{
-   
-    width: 90vw;
-    margin: auto;
-    margin-top: 15px;
-    padding: 10px 10px;
-    height: 100px;
-   
     }
-    .logo{
-        width: 50px;
-        margin-top: 25px;
-       
+    .navList {
+        display: none;
+    }
+    .loginSignUp {
+        display: none;
+    }
+    .navigate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputTag {
+        display: none;
+
+    }
+}
+
+@media only screen and (min-width:441px) and (max-width:640px) {
+    .header {
+        width: 86%;
+    }
+
+    .logo {
+        width: 70px;
+        margin-top: 20px;
         margin-right: 5px;
-       
+
     }
 
-   
-    .navigate{
+
+    .navigate {
         width: 40px;
         margin-left: 15px;
         margin-top: 5px;
     }
-    .searchDiv{
+
+    .searchDiv {
         width: 200px;
         display: flex;
         justify-content: space-between;
         margin-left: 0px;
-     }
+    }
+    .navList {
+        display: none;
+    }
+    .loginSignUp {
+        display: none;
+    }
+    .navigate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputTag {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:768px) {
+    .header {
+        width: 88%;
+    }
+
+    .logo {
+        width: 100px;
+        margin-top: 5px;
+        margin-right:3px;
+
+    }
+    .searchDiv {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    .navList {
+        display: none;
+    }
+    .loginSignUp {
+        display: none;
+    }
+
+    .navigate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputTag {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .header {
+        width: 92%;
+    }
+
+    .logo {
+        width: 120px;
+        margin-top: 5px;
+
+    }
+
+    .searchDiv {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+
+    .searchIcon {
+        margin: 5px 0px 5px 10px;
+        font-size: 25px;
+    }
 
 
+    .inputTag {
+        display: none;
+    }
 
-  }
+    .searchSpan {
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        font-size: 15px;
+        border-bottom: 2px solid var(--color_bTWEb0_default);
+        color: var(--color_bTWEb0_default);
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .loginSignUp {
+        display: none;
+    }
+
+    .navigate {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1400px) {
+    .header {
+        width: 1025px;
+    }
+    .navList{
+    list-style-type: none;
+    margin: 32px 0px 0px -30px;
+    padding: 0;
+    overflow: hidden;
+   
+    display: flex;
+    text-align: center;
+}
+
+}
+
+@media only screen and (min-width:1401px)  {
+    .header {
+        width: 90%;
+        max-width: 1125px;
+    }
+}

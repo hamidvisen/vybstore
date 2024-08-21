@@ -5,11 +5,15 @@ import Image from 'next/image'
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 import Styles from "./profile.module.css";
 
+
+
+
 const Profile = () => {
   const [isAdress, setIsAdderss] = useState(false);
   const isSave = () => {
     setIsAdderss(!isAdress);
   };
+  const toggleSave = () => setIsAdderss(prevState => !prevState);
   return (
     <div className="container">
       <div
@@ -38,7 +42,7 @@ const Profile = () => {
               className={`text-[20px] w-[100%]  border-2 border-black font-semibold  rounded-xl py-2 px-3 mb-5 ${
                 Styles.shad
               } ${!isAdress ? "bg-[#003c3c] text-white" : "text-[#0e4747]"}`}
-            >
+           onClick={toggleSave} >
               Profile
             </button>
             <button
@@ -71,13 +75,13 @@ const Profile = () => {
               </div>
 
               <form>
-                <label htmlFor="house" className="text-[30px]  font-semibold">
+                <label htmlFor="house" className="text-[30px]  text-black font-semibold">
                   House No. / Apartments / Street
                 </label>
                 <br />
                 <input
                   type="text"
-                  className="placeholder:text-[18px]"
+                  className="placeholder:text-[18px] text-black"
                   placeholder="House No. / Apartments / Street"
                   style={{
                     border: "2px solid #a8a8a8",
@@ -91,13 +95,13 @@ const Profile = () => {
                   }}
                 />
                 <br />
-                <label htmlFor="email" className="text-[30px]  font-semibold">
+                <label htmlFor="email" className="text-[30px] text-black  font-semibold">
                   Area
                 </label>
                 <br />
                 <input
                   type="text"
-                  className="placeholder:text-[18px]"
+                  className="placeholder:text-[18px] text-black"
                   placeholder="Area"
                   style={{
                     border: "2px solid #a8a8a8",
@@ -115,14 +119,14 @@ const Profile = () => {
                   <div className="w-[48%]">
                     <label
                       htmlFor="zipcode"
-                      className="text-[30px]  font-semibold"
+                      className="text-[30px] text-black font-semibold"
                     >
                       Zip Code
                     </label>
                     <br />
                     <input
                       type="number"
-                      className={`placeholder:text-[18px] ${Styles.num}`}
+                      className={`placeholder:text-[18px] text-black ${Styles.num}`}
                       placeholder="Enter Zip Code"
                       style={{
                         border: "2px solid #a8a8a8",
@@ -139,14 +143,14 @@ const Profile = () => {
                   <div className="w-[48%]">
                     <label
                       htmlFor="city"
-                      className="text-[30px]  font-semibold"
+                      className="text-[30px] text-black font-semibold"
                     >
                       City
                     </label>
                     <br />
                     <input
                       type="text"
-                      className="placeholder:text-[18px]"
+                      className="placeholder:text-[18px] text-black"
                       placeholder="Enter City"
                       style={{
                         border: "2px solid #a8a8a8",
@@ -166,14 +170,14 @@ const Profile = () => {
                   <div className="w-[48%]">
                     <label
                       htmlFor="state"
-                      className="text-[30px]  font-semibold"
+                      className="text-[30px] text-black font-semibold"
                     >
                       State
                     </label>
                     <br />
                     <input
                       type="text"
-                      className="placeholder:text-[18px] "
+                      className="placeholder:text-[18px] text-black "
                       placeholder="Enter Zip Code"
                       style={{
                         border: "2px solid #a8a8a8",
@@ -190,14 +194,14 @@ const Profile = () => {
                   <div className="w-[48%]">
                     <label
                       htmlFor="country"
-                      className="text-[30px]  font-semibold"
+                      className="text-[30px] text-black font-semibold"
                     >
                       Country
                     </label>
                     <br />
                     <input
                       type="text"
-                      className="placeholder:text-[18px]"
+                      className="placeholder:text-[18px] text-black"
                       placeholder="Enter Country"
                       style={{
                         border: "2px solid #a8a8a8",
@@ -234,15 +238,16 @@ const Profile = () => {
               <form>
                 <label
                   htmlFor="fullname"
-                  className="text-[30px]  font-semibold"
+                  className="text-[30px] text-black font-semibold"
                 >
                   Full Name
                 </label>
                 <br />
                 <input
                   type="text"
-                  className="placeholder:text-[18px]"
+                  className="placeholder:text-[18px] text-black"
                   placeholder="Enter Full Name"
+                  
                   style={{
                     border: "2px solid #a8a8a8",
                     padding: "20px 20px",
@@ -255,13 +260,13 @@ const Profile = () => {
                   }}
                 />
                 <br />
-                <label htmlFor="email" className="text-[30px]  font-semibold">
+                <label htmlFor="email" className="text-[30px] text-black font-semibold">
                   Email
                 </label>
                 <br />
                 <input
                   type="email"
-                  className="placeholder:text-[18px]"
+                  className="placeholder:text-[18px] text-black"
                   placeholder="Enter email address"
                   style={{
                     border: "2px solid #a8a8a8",
@@ -277,14 +282,14 @@ const Profile = () => {
                 <br />
                 <label
                   htmlFor="password"
-                  className="text-[30px]  font-semibold"
+                  className="text-[30px] text-black font-semibold"
                 >
                   Password
                 </label>
                 <br />
                 <input
                   type="password"
-                  className="placeholder:text-[18px]"
+                  className="placeholder:text-[18px] text-black"
                   placeholder="Enter email address"
                   style={{
                     border: "2px solid #a8a8a8",
@@ -298,13 +303,13 @@ const Profile = () => {
                   }}
                 />
                 <br />
-                <label htmlFor="phone" className="text-[30px]  font-semibold">
+                <label htmlFor="phone" className="text-[30px] text-black  font-semibold">
                   Phone Number
                 </label>
                 <br />
                 <input
                   type="number"
-                  className={`placeholder:text-[18px] ${Styles.num}`}
+                  className={`placeholder:text-[18px] text-black ${Styles.num}`}
                   placeholder="Enter email address"
                   style={{
                     border: "2px solid #a8a8a8",
@@ -333,7 +338,7 @@ const Profile = () => {
                     height={24}
                     alt="google logo"
                   />
-                  <span className="font-[500] text-[18px]">Connect Google</span>
+                  <span className="font-[500] text-[18px] text-black">Connect Google</span>
                 </button>
               </form>
               {console.log("profile wala")}

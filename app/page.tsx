@@ -285,7 +285,7 @@ export default function Home() {
               <p className={Style.rangeDefNumInner}>{value2}</p>
             </div>
           </div>
-          <div className="reportDiv">
+          <div className={Style.reportDiv1}>
             <p className={`font-bold mb-[30px] text-[25px] ${Style.rptTxt}`}>
               Yearly Earnings
             </p>

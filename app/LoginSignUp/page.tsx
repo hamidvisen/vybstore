@@ -47,7 +47,7 @@ const HrWithText: React.FC<HRWithTextProps> = ({ text, width = "70%" }) => {
       }}
     >
       <hr className={`${Style.hrLine}`} />
-      <span className={`${Style.hrTxt}`}>{text}</span>
+      <span className={`${Style.hrTxt} text-black`}>{text}</span>
       <hr className={`${Style.hrLine}`} />
     </div>
   );
@@ -102,7 +102,7 @@ export default function Login() {
     <div>
       {/* <Navbar /> */}
       <div className="container">
-        <div className="row mt-[10%]  flex h-[100vh]">
+        <div className={`${Style.row} row mt-[10%]  flex h-[100vh]`}>
           {/* Left side with the image */}
           <div className={`w-[50%] h-[100%]  ${Style.frstDiv}`}>
             <Image
@@ -110,7 +110,7 @@ export default function Login() {
               alt="Signup Image"
               width={450}
               height={200}
-              className={` ml-[30%] mt-[8%] rounded object-cover ${Style.img}`}
+              className={`mt-[8%] rounded object-cover ${Style.img}`}
             />
           </div>
 
@@ -129,7 +129,7 @@ export default function Login() {
                 <>
                   <label
                     htmlFor="fullName"
-                    className={`text-[30px] ml-[27%] font-semibold ${Style.lblTxt}`}
+                    className={`text-[30px] text-black ml-[27%] font-semibold ${Style.lblTxt}`}
                   >
                     Full Name
                   </label>
@@ -137,7 +137,7 @@ export default function Login() {
                   <input
                     type="text"
                     required
-                    className={`placeholder:text-[14px] ${Style.inptForm} `}
+                    className={`placeholder:text-[14px] text-black ${Style.inptForm} `}
                     placeholder="Enter full name"
                     // style={{
                     //   border: "2px solid #a8a8a8",
@@ -154,7 +154,7 @@ export default function Login() {
                   <br />
                   <label
                     htmlFor="email"
-                    className={`text-[30px] ml-[27%] font-semibold ${Style.lblTxt}`}
+                    className={`text-[30px] ml-[27%] text-black font-semibold ${Style.lblTxt}`}
                   >
                     Email
                   </label>
@@ -162,7 +162,7 @@ export default function Login() {
                   <input
                     type="text"
                     required
-                    className={`placeholder:text-[14px] ${Style.inptForm} `}
+                    className={`placeholder:text-[14px] text-black ${Style.inptForm} `}
                     placeholder="Enter email address"
                     // style={{
                     //   border: "2px solid #a8a8a8",
@@ -179,7 +179,7 @@ export default function Login() {
                   <br />
                   <label
                     htmlFor="password"
-                    className={`text-[30px] ml-[27%]  font-semibold ${Style.lblTxt}`}
+                    className={`text-[30px] ml-[27%]  text-black font-semibold ${Style.lblTxt}`}
                   >
                     Password
                   </label>
@@ -188,7 +188,7 @@ export default function Login() {
                     type="password"
                     required
                     placeholder="Enter password"
-                    className={`placeholder:text-[14px] ${Style.inptForm} `}
+                    className={`placeholder:text-[14px] text-black ${Style.inptForm} `}
                     // style={{
                     //   border: "2px solid #a8a8a8",
                     //   padding: "10px",
@@ -201,7 +201,7 @@ export default function Login() {
                   />{" "}
                   <br />
                   <p
-                    className={`text-center mx-12 mt-5 text-[20px] ${Style.crtrTxt}`}
+                    className={`text-center mx-12 mt-5 text-black text-[20px] ${Style.crtrTxt}`}
                   >
                     Are You a Creator?
                   </p>
@@ -229,7 +229,7 @@ export default function Login() {
                   >
                     Sign up{" "}
                   </button>
-                  <p className={`mt-3 text-center ${Style.sgnTxt}`}>
+                  <p className={`mt-3 text-center text-black ${Style.sgnTxt}`}>
                     Already have an account?
                     <a
                       href="#"
@@ -251,33 +251,33 @@ export default function Login() {
                     } ${isSmallScreen ? "my-[5px]" : "my-[20px]"} `}
                   >
                     <Image
-                      className={`mr-2 mt-[3px] ${Style.gglImg}`}
+                      className={`mt-[2] mr-3 ${Style.gglImg}`}
                       src="/google_logo.png"
                       alt="Google Logo"
                       width={24}
                       height={24}
                     />
-                    <span className={`font-[500] text-[18px] ${Style.gglTxt}`}>
+                    <span className={`font-[500] text-[18px] text-black ${Style.gglTxt}`}>
                       Signup/ Signin Google
                     </span>
                   </button>
                   <HrWithText text="OR" width="60%" />
                   <label
                     htmlFor="email"
-                    className={`text-[30px] ml-[27%] font-semibold ${Style.lblTxt}`}
+                    className={`text-[30px] text-black ml-[27%] font-semibold ${Style.lblTxt}`}
                   >
                     Email
                   </label>
                   <br />
                   <input
                     type="text"
-                    className={`placeholder:text-[14px] ${Style.inptForm}`}
+                    className={`placeholder:text-[14px] text-black ${Style.inptForm}`}
                     placeholder="Enter Email Address"
                   />{" "}
                   <br />
                   <label
                     htmlFor="password"
-                    className={`text-[30px] ml-[27%] font-semibold ${Style.lblTxt}`}
+                    className={`text-[30px] ml-[27%] text-black font-semibold ${Style.lblTxt}`}
                   >
                     Password
                   </label>
@@ -285,7 +285,7 @@ export default function Login() {
                   <input
                     type="password"
                     placeholder="Enter Password"
-                    className={`placeholder:text-[14px] ${Style.inptForm}`}
+                    className={`placeholder:text-[14px] text-black ${Style.inptForm}`}
                   />
                   <br />
                   <p
@@ -295,7 +295,7 @@ export default function Login() {
                   </p>
                   <button
                     type="submit"
-                    className={`text-center border-2  w-[20%] rounded-xl py-2 ml-[41%] mt-[30px] border-[#003c3c] bg-[#f8f9fb] ${Style.lgnBtn} `}
+                    className={`text-center border-2 text-black  w-[20%] rounded-xl py-2 ml-[41%] mt-[30px] border-[#003c3c] bg-[#f8f9fb] ${Style.lgnBtn} `}
                   >
                     Login
                   </button>

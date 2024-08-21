@@ -41,175 +41,263 @@
 
 
 
-@media (max-width: 1024px){
-    .frstDiv{
-        /* border: 2px solid black; */
-        
-    }
-    .img{
-        width: 80%;
-        height: 40%;
-        object-fit: cover;
-        margin-left: 10%;
-        margin-top: 100px;
-        
-    }
-    .rightDiv{
-        width: 50%;
-        /* border: 2px solid black; */
-        padding-top: 45px;
-    }
-    .gglBtn{
-        
-        width: 80%;
-        margin-left: 10%;
-        padding-left: 30px;
-    }
-    .gglImg{
-        width: 10%;
-        margin-top: 20px;
-        margin-right: 0px;
-    }
-    .gglTxt{
-        font-size: 22px;
-        margin-left: 5px;
-    }
-    .lblTxt{
-        margin-left: 20%;
-        font-size: 32px;
-    }
-    .inptForm{
-        width: 65%;
-        margin-left: 20%;
-        
-    }
-    .rstLink{
-        margin-top: 0px;
-    }
-}
 
-@media (max-width: 640px){
+
+/* New Media query for responsive the main page */
+
+@media only screen and (min-width:0) and (max-width:440px) {
     .frstDiv{
-        /* border: 2px solid black; */
+        display: none;
         
-    }
-    .img{
-        width: 100%;
-        height: 30%;
-        object-fit: cover;
-        margin-left: 0;
-        margin-top: 150px;
-        
-        border-radius: 16px;
     }
     .rightDiv{
-        width: 50%;
-        /* border: 2px solid black; */
-        padding-top: 90px;
+        /* border: 2px solid blue; */
+      
+        width: 100%;      
+       margin-top: 50px; 
     }
-    .headTxt{
-        font-size: 24px;
-       
-    }
+
     .gglBtn{
         
-        width: 100%;
-        margin-left: 2%;
-        padding-left: 5px;
+        width: 50%;
+        margin: auto;
+        min-width: 200px;
+       
         height: 50px;
         word-wrap: break-word;
         
     }
     .gglTxt{
-        font-size: 10px;
-        margin-left: 1px;
+        font-size: 13px;
+       margin-left: 10px;
     }
     .gglImg{
-        width: 20%;
-        margin-top: 0px;
-        margin-right: 0px;
-    }
-
-    .lblTxt{
-        margin-left: 10%;
-        font-size: 32px;
-      
-    }
-    .inptForm{
-        width: 90%;
-        margin-left: 10%;
-        margin-bottom: 10px;
-        padding: 1px 5px ;
-        /* border: 1px solid black; */
+        width: 10%;
+        margin-right: 2px;
         
     }
-    .rstLink{
-        margin-top: 0px;
-        font-size: 12px;
- 
-        margin-left: 10px;
+    .sgnBtn{
+       width: 40%;
+       margin-left: 32%;
     }
     .lgnBtn{
-        border: 2px solid black;
+        width: 30%;
+        margin-left: 37%;
+    }
+    
+  }
+  
+  @media only screen and (min-width:441px) and (max-width:640px) {
+    
+    .frstDiv{
+        display: none;
+        
+    }
+    .rightDiv{
+        /* border: 2px solid blue; */
+      
+        width: 100%;      
+       margin-top: 50px; 
+    }
+    .gglBtn{
+        
         width: 50%;
-        margin-left: 25%;
-        margin-top: 5px;
-        padding: 5px 2px;
-    }
-    .hrTxt{
-        font-size: 10px;
-
+        margin: auto;
+        min-width: 200px;
+       max-width: 200px;
+        height: 50px;
+        word-wrap: break-word;
         
     }
-    /* .hrDiv{
-        border: 2px solid black; 
-        margin-bottom: -10px;
-        margin: "10px auto",
+    .gglTxt{
+        font-size: 13px;
+       margin-left: 10px;
+    }
+    .gglImg{
+        width: 10%;
+        margin-right: 2px;
         
-    } */
-    
-    .sgnBtn{
+    }
+  }
+  
+  @media only screen and (min-width:641px) and (max-width:768px) {
+    .row{
         /* border: 2px solid black; */
-        width: 60%;
-        margin-left: 20%;
-        margin-top: px;
-        padding: 5px 2px;
-        border-radius: 12px;
+        width: 95%;
+        margin: auto;
+        max-width: 1025px;
+        
+        
+        margin-top: 120px;
     }
-    .crtrTxt{
-        font-size: 10px;
+    .frstDiv{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        
+    }
+    .img{
+        width: 90%;
+        height: 100vh;
+
+
+    }
+   
+   
+    .rightDiv{
+        /* border: 2px solid blue; */
+      
+        width: 50%;       
+    }
+    .gglBtn{
+        
+        width: 50%;
+        margin: auto;
+        min-width: 230px;
+       
+        height: 50px;
+        word-wrap: break-word;
+        
+    }
+    .gglTxt{
+        font-size: 13px;
+       margin-left: 10px;
+    }
+    .gglImg{
+        width: 10%;
+        margin-right: 2px;
+        
+    }
+    .inptForm{
+        width: 60%;
+        
+    }
+
+   
+  
+  }
+  
+  @media only screen and (min-width:769px) and (max-width:1024px) {
+    .row{
+        /* border: 2px solid black; */
+        width: 95%;
+        margin: auto;
+        max-width: 1025px;
+        
+        
+        margin-top: 120px;
+    }
+    .frstDiv{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        
+    }
+    .img{
+        width: 90%;
+        height: 100vh;
+
+
+    }
+   
+   
+    .rightDiv{
+        /* border: 2px solid blue; */
+      
+        width: 50%;       
+    }
+    .gglBtn{
+        
+        width: 60%;
+        margin: auto;
+       min-width: 250px;
+        height: 50px;
+        word-wrap: break-word;
+        
+    }
+    .gglTxt{
+        font-size: 15px;
+       margin-left: 10px;
+    }
+    .gglImg{
+        width: 10%;
+        margin-right: 2px;
+        
+    }
+    .inptForm{
+        width: 60%;
+        
+    }
     
+  
+  }
+  
+  
+  @media only screen and (min-width:1025px) and (max-width:1400px) {
+    .row{
         /* border: 2px solid black; */
         width: 80%;
-        margin:auto;
-        margin-left: 20px;
+        margin: auto;
+        min-width: 990px;
+        
+        
+        margin-top: 120px;
     }
-    .yesBtn{
-        width: 40%;
-        margin-left: 30%;
-        font-size: 20px;
+    .frstDiv{
+        /* border: 2px solid black; */
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 5px;
-        padding: 3px 2px;
-        text-align: center;
+        max-width: 50%;
+        
     }
-    .noBtn{
-        width: 50%;
-        margin-right: 30%;
-        font-size: 20px;
-        border: 2px solid #003c3c;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        padding: 3px 2px;
-        text-align: center;
-    }
+    .img{
+        width: 90%;
+        height: 100vh;
 
-    .sgnTxt{
-        font-size: 10px;
+
+    }
+   
+   
+    .rightDiv{
+        /* border: 2px solid blue; */
+      
+        width: 50%;       
     }
     
-}
+  
+  }
+  
+  @media only screen and (min-width:1401px)  {
+   
+    .row{
+        /* border: 2px solid black; */
+        width: 90%;
+        margin: auto;
+        max-width: 1125px;
+        margin-top: 120px;
+    }
+    .frstDiv{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        
+    }
+   
+   
+    .rightDiv{
+        /* border: 2px solid blue; */
+      
+        width: 50%;       
+    }
+    
+  }
+  
+  
+  
