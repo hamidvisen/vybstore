@@ -119,7 +119,8 @@ export default function Home() {
       <div className={Style.CarouselImage}>
         <Image src="/finalSecImg.gif"  alt="Carousal Image" layout="responsive"
         width={100} height={50}
-        objectFit="cover"/>
+        objectFit="cover"
+        unoptimized/>
       </div>
       <div className={Style.advertContainer}>
         <div className={Style.advertRow}>
