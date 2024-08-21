@@ -665,6 +665,9 @@ text-align: center;
   .informTxt{
     font-size: 18px;
   }
+  .CarouselImage{
+    width: 100%;
+  }
 
 }
 
@@ -719,7 +722,11 @@ text-align: center;
     width: 80%;
    text-justify: center;
   }
+  .CarouselImage{
+    width: 100%;
+  }
 
+  
 }
 
 @media only screen and (min-width:1401px)  {
@@ -730,7 +737,9 @@ text-align: center;
     margin-top: 8rem;
     margin-bottom: 15px;
 
-    
+    .CarouselImage{
+      width: 100%;
+    }
   }
   .video {
     width: 100%;
@@ -768,6 +777,9 @@ text-align: center;
   max-width: 625px;
   width: 80%;
  text-justify: center;
+}
+.CarouselImage{
+  width: 100%;
 }
 
 }
