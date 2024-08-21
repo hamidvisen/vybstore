@@ -655,7 +655,7 @@ text-align: center;
     width: 0;
     height: 100%;
     border: 2px solid #d9d9d9;
-    top: 8%;
+    top: 8.5%;
   }
   .rangeDefNumInner {
     width: 20%;
@@ -742,7 +742,7 @@ text-align: center;
   }
 
   .firstElementLine{
-    top: 9%;
+    top: 9.5%;
   }
   
 }
@@ -806,7 +806,7 @@ text-align: center;
   
 }
 .firstElementLine{
-  top: 9%;
+  top: 9.5%;
 }
 }
 
