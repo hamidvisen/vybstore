@@ -41,7 +41,7 @@ export default function Home() {
     <main>
       <div id="videoContainer" className={Style.videoContent}>
         <video className={Style.video} autoPlay playsInline loop muted>
-          <source src="video.mp4" />
+          <source src="video.mp4"/>
         </video>
         <div className={Style.videoOverlay}>
           <div className={Style.badgeCard}>
@@ -120,6 +120,7 @@ export default function Home() {
         <Image src="/finalSecImg.gif"  alt="Carousal Image" layout="responsive"
         width={100} height={50}
         objectFit="cover"
+        unoptimized
         />
       </div>
       <div className={Style.advertContainer}>

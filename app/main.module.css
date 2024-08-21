@@ -144,7 +144,7 @@ text-align: center;
   width: 0;
   height: 100%;
   border: 2px solid #d9d9d9;
-  top: 8%;
+  top: 10%;
 }
 
 .firstElement {
@@ -159,8 +159,9 @@ text-align: center;
   background-color: #e5f0f1;
 }
 .advertImg {
-  width: 85%;
-  height: 90vh;
+ 
+    width: 90%;
+    height: 70vh;
   display: block;
   margin: auto;
   border-radius: 16px;
@@ -384,6 +385,10 @@ text-align: center;
     width: 90%;
     margin: auto;
   }
+  .advertImg {
+    width: 90%;
+    height: 50vh;
+  }
   
 }
 
@@ -447,8 +452,8 @@ text-align: center;
     margin: auto;
   }
   .advertImg {
-    width: 100%;
-    height: 100vh;
+    width: 90%;
+    height: 60vh;
   }
   .rangeDefNumInner {
     width: 25%;
@@ -557,7 +562,7 @@ text-align: center;
   }
   .advertImg {
     width: 90%;
-    height: 100vh;
+    height: 62vh;
     
   }
   .rangeDefNumInner {
@@ -650,7 +655,7 @@ text-align: center;
     width: 0;
     height: 100%;
     border: 2px solid #d9d9d9;
-    top: 7%;
+    top: 8%;
   }
   .rangeDefNumInner {
     width: 20%;
@@ -667,6 +672,11 @@ text-align: center;
   }
   .CarouselImage{
     width: 100%;
+  }
+  .advertImg {
+    width: 90%;
+    height: 65vh;
+    
   }
 
 }
@@ -725,7 +735,15 @@ text-align: center;
   .CarouselImage{
     width: 100%;
   }
+  .advertImg {
+    width: 90%;
+    height: 68vh;
+    
+  }
 
+  .firstElementLine{
+    top: 9%;
+  }
   
 }
 
@@ -782,6 +800,14 @@ text-align: center;
   width: 100%;
 }
 
+.advertImg {
+  width: 90%;
+  height: 70vh;
+  
+}
+.firstElementLine{
+  top: 10%;
+}
 }
 
 
