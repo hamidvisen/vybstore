@@ -41,7 +41,7 @@ export default function Home() {
     <main>
       <div id="videoContainer" className={Style.videoContent}>
         <video className={Style.video} autoPlay playsInline loop muted>
-          <source src="video.mp4"/>
+          <source src="/video.mp4"/>
         </video>
         <div className={Style.videoOverlay}>
           <div className={Style.badgeCard}>
