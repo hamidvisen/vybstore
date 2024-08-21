@@ -8,7 +8,7 @@
 .video {
   width: 90%;
   height: 500px;
-  margin-top: -40px;
+  margin-top: 40px;
 }
 .videoOverlay {
   transform: translateY(-35px);
