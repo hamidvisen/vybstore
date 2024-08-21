@@ -110,8 +110,8 @@
         width: 84%;
     }
     .logo {
-        width: 50px;
-        margin-top: 20px;
+        width: 65px;
+        margin-top: 7px;
         margin-right: 5px;
 
     }
@@ -136,6 +136,9 @@
         display: none;
 
     }
+  .searchDiv{
+    display: none;
+  }
 }
 
 @media only screen and (min-width:441px) and (max-width:640px) {
@@ -177,6 +180,19 @@
     .inputTag {
         display: none;
     }
+    .searchSpan{
+        margin: 0px 15px 0px 10px;
+        position: relative;
+        font-size: 20px;
+        border-bottom: 2px solid var(--color_bTWEb0_default);
+        color: var(--color_bTWEb0_default);
+        top: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 0px;
+
+    }
 }
 
 @media only screen and (min-width:641px) and (max-width:768px) {
@@ -195,6 +211,18 @@
         display: flex;
         justify-content: space-between;
         margin-left: 0px;
+    }
+    .searchSpan{
+        margin: 0px 15px 0px 10px;
+    position: relative;
+    font-size: 20px;
+    border-bottom: 2px solid var(--color_bTWEb0_default);
+    color: var(--color_bTWEb0_default);
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
     }
     .navList {
         display: none;
@@ -241,15 +269,18 @@
         display: none;
     }
 
-    .searchSpan {
-
-        margin-top: 5px;
-        margin-bottom: 5px;
-
-        font-size: 15px;
-        border-bottom: 2px solid var(--color_bTWEb0_default);
-        color: var(--color_bTWEb0_default);
-    }
+   .searchSpan{
+    margin: 0px 15px 0px 10px;
+    position: relative;
+    font-size: 20px;
+    border-bottom: 2px solid var(--color_bTWEb0_default);
+    color: var(--color_bTWEb0_default);
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+   }
 
     .navList {
         display: none;
@@ -280,6 +311,12 @@
     text-align: center;
 }
 
+.navLi {
+    display: inline;
+    line-height: 10px;
+    margin-right: 15px;
+
+}
 }
 
 @media only screen and (min-width:1401px)  {
