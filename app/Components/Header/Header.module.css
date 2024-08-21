@@ -302,6 +302,7 @@
         justify-content: center;
         align-items: center;
     }
+   
 }
 
 @media only screen and (min-width:1025px) and (max-width:1400px) {
@@ -324,11 +325,17 @@
     margin-right: 15px;
 
 }
+.shad{
+    display: none;
+}
 }
 
 @media only screen and (min-width:1401px)  {
     .header {
         width: 90%;
         max-width: 1125px;
+    }
+    .shad{
+        display: none;
     }
 }
